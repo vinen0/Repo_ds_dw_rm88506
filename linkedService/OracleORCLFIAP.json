@@ -2,7 +2,6 @@
 	"name": "OracleORCLFIAP",
 	"type": "Microsoft.DataFactory/factories/linkedservices",
 	"properties": {
-		"description": "Base de dados alunos",
 		"annotations": [],
 		"type": "Oracle",
 		"version": "2.0",
