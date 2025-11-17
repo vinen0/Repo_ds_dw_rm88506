@@ -5,13 +5,17 @@
 			"referenceName": "AzureBlobStorage1",
 			"type": "LinkedServiceReference"
 		},
+		"parameters": {
+			"param": {
+				"type": "string"
+			}
+		},
 		"annotations": [],
 		"type": "DelimitedText",
 		"typeProperties": {
 			"location": {
 				"type": "AzureBlobStorageLocation",
-				"fileName": "dados_destino.csv",
-				"container": "destino_dados"
+				"container": "destinorm88506"
 			},
 			"columnDelimiter": ",",
 			"escapeChar": "\\",
