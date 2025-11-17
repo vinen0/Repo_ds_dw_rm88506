@@ -1,0 +1,17 @@
+{
+	"name": "OracleTable1",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "OracleORCLFIAP",
+			"type": "LinkedServiceReference"
+		},
+		"parameters": {
+			"SQLQuery": {
+				"type": "string"
+			}
+		},
+		"annotations": [],
+		"type": "OracleTable",
+		"schema": []
+	}
+}
